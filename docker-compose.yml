@@ -1,0 +1,22 @@
+version: '3.5'
+services:
+  chirpers:
+    build: './'
+    container_name: chirpers
+    hostname: chirpers
+    volumes:
+      - ".:/project_file"
+    working_dir: /project_file
+    command: [sh, -c, npm ci && pm2-runtime pm2.yml]
+    environment:
+      - "NODE_ENV=production"
+      - "NODE_CONFIG_DIR=/project_file/config"
+      - "TZ=Asia/Tokyo"
+    ports:
+      - "3004:3000"
+    restart: always
+
+networks:
+  default:
+    external:
+      name: basenet

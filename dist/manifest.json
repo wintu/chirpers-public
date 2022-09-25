@@ -1,0 +1,228 @@
+{
+  "src/assets/top-hero.svg": {
+    "file": "assets/top-hero.0b16f301.svg",
+    "src": "src/assets/top-hero.svg"
+  },
+  "src/assets/not-found.svg": {
+    "file": "assets/not-found.c6930bbb.svg",
+    "src": "src/assets/not-found.svg"
+  },
+  "src/assets/error.svg": {
+    "file": "assets/error.4a2c15a0.svg",
+    "src": "src/assets/error.svg"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2": {
+    "file": "assets/fa-regular-400.52ec4d83.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2": {
+    "file": "assets/fa-solid-900.52bbd916.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.woff2": {
+    "file": "assets/fa-v4compatibility.b8f0081f.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2": {
+    "file": "assets/fa-brands-400.967394d1.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf": {
+    "file": "assets/fa-regular-400.e2d44fc8.ttf",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.ttf": {
+    "file": "assets/fa-v4compatibility.58ccbdf2.ttf",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.ttf"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf": {
+    "file": "assets/fa-solid-900.5808ca8f.ttf",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf": {
+    "file": "assets/fa-brands-400.2cd4cf89.ttf",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf"
+  },
+  "src/main.js": {
+    "file": "assets/main.8a2f4785.js",
+    "src": "src/main.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "src/components/Index.vue",
+      "src/components/Home.vue",
+      "src/components/EditEntry.vue",
+      "src/components/ReadEntry.vue",
+      "src/components/Error.vue",
+      "src/components/NotFound.vue"
+    ],
+    "css": [
+      "assets/main.73fac99b.css"
+    ],
+    "assets": [
+      "assets/fa-brands-400.967394d1.woff2",
+      "assets/fa-brands-400.2cd4cf89.ttf",
+      "assets/fa-regular-400.52ec4d83.woff2",
+      "assets/fa-regular-400.e2d44fc8.ttf",
+      "assets/fa-solid-900.52bbd916.woff2",
+      "assets/fa-solid-900.5808ca8f.ttf",
+      "assets/fa-v4compatibility.b8f0081f.woff2",
+      "assets/fa-v4compatibility.58ccbdf2.ttf"
+    ]
+  },
+  "src/components/Index.vue": {
+    "file": "assets/Index.fb206035.js",
+    "src": "src/components/Index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.js",
+      "_api_client.f45c9317.js",
+      "__plugin-vue_export-helper.cdc0426e.js"
+    ],
+    "css": [
+      "assets/Index.8cd0c487.css"
+    ],
+    "assets": [
+      "assets/top-hero.0b16f301.svg"
+    ]
+  },
+  "_api_client.f45c9317.js": {
+    "file": "assets/api_client.f45c9317.js",
+    "imports": [
+      "src/main.js"
+    ]
+  },
+  "__plugin-vue_export-helper.cdc0426e.js": {
+    "file": "assets/_plugin-vue_export-helper.cdc0426e.js"
+  },
+  "src/components/Home.vue": {
+    "file": "assets/Home.1715305c.js",
+    "src": "src/components/Home.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_MenuBar.dca5e5a5.js",
+      "_UserSelector.fa65e289.js",
+      "_api_client.f45c9317.js",
+      "src/main.js",
+      "__plugin-vue_export-helper.cdc0426e.js"
+    ],
+    "css": [
+      "assets/Home.0f06ae5e.css"
+    ]
+  },
+  "_MenuBar.dca5e5a5.js": {
+    "file": "assets/MenuBar.dca5e5a5.js",
+    "imports": [
+      "src/main.js",
+      "__plugin-vue_export-helper.cdc0426e.js"
+    ],
+    "css": [
+      "assets/MenuBar.074997ad.css"
+    ]
+  },
+  "_UserSelector.fa65e289.js": {
+    "file": "assets/UserSelector.fa65e289.js",
+    "imports": [
+      "src/main.js",
+      "_api_client.f45c9317.js",
+      "__plugin-vue_export-helper.cdc0426e.js"
+    ],
+    "css": [
+      "assets/UserSelector.49d10520.css"
+    ]
+  },
+  "src/components/EditEntry.vue": {
+    "file": "assets/EditEntry.b22fbce2.js",
+    "src": "src/components/EditEntry.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.js",
+      "_MenuBar.dca5e5a5.js",
+      "_api_client.f45c9317.js",
+      "_UserSelector.fa65e289.js",
+      "__plugin-vue_export-helper.cdc0426e.js"
+    ],
+    "css": [
+      "assets/EditEntry.26631de8.css"
+    ]
+  },
+  "src/components/ReadEntry.vue": {
+    "file": "assets/ReadEntry.907ce4cd.js",
+    "src": "src/components/ReadEntry.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.js",
+      "_api_client.f45c9317.js",
+      "_MenuBar.dca5e5a5.js",
+      "__plugin-vue_export-helper.cdc0426e.js"
+    ],
+    "css": [
+      "assets/ReadEntry.a1b9430e.css"
+    ]
+  },
+  "src/components/Error.vue": {
+    "file": "assets/Error.f9c9abfa.js",
+    "src": "src/components/Error.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "__plugin-vue_export-helper.cdc0426e.js",
+      "src/main.js"
+    ],
+    "css": [
+      "assets/Error.4e88a614.css"
+    ],
+    "assets": [
+      "assets/error.4a2c15a0.svg"
+    ]
+  },
+  "src/components/NotFound.vue": {
+    "file": "assets/NotFound.3ab44a45.js",
+    "src": "src/components/NotFound.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "__plugin-vue_export-helper.cdc0426e.js",
+      "src/main.js"
+    ],
+    "css": [
+      "assets/NotFound.a63b8901.css"
+    ],
+    "assets": [
+      "assets/not-found.c6930bbb.svg"
+    ]
+  },
+  "src/components/NotFound.css": {
+    "file": "assets/NotFound.a63b8901.css",
+    "src": "src/components/NotFound.css"
+  },
+  "src/components/Error.css": {
+    "file": "assets/Error.4e88a614.css",
+    "src": "src/components/Error.css"
+  },
+  "UserSelector.css": {
+    "file": "assets/UserSelector.49d10520.css",
+    "src": "UserSelector.css"
+  },
+  "src/components/Home.css": {
+    "file": "assets/Home.0f06ae5e.css",
+    "src": "src/components/Home.css"
+  },
+  "src/components/EditEntry.css": {
+    "file": "assets/EditEntry.26631de8.css",
+    "src": "src/components/EditEntry.css"
+  },
+  "src/components/ReadEntry.css": {
+    "file": "assets/ReadEntry.a1b9430e.css",
+    "src": "src/components/ReadEntry.css"
+  },
+  "MenuBar.css": {
+    "file": "assets/MenuBar.074997ad.css",
+    "src": "MenuBar.css"
+  },
+  "src/components/Index.css": {
+    "file": "assets/Index.8cd0c487.css",
+    "src": "src/components/Index.css"
+  },
+  "src/main.css": {
+    "file": "assets/main.73fac99b.css",
+    "src": "src/main.css"
+  }
+}

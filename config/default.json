@@ -1,0 +1,32 @@
+{
+  "db": {
+    "timezone": "+09:00",
+    "define": {
+      "charset": "utf8mb4"
+    },
+    "dialectOptions": {
+      "charset": "utf8mb4",
+      "supportBigNumbers": true
+    },
+    "username": "hogehoge",
+    "password": null,
+    "database": "database",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "logging": false
+  },
+  "enableViteServer": true,
+  "twitter": {
+    "token": "hogehoge",
+    "secret": "hogehoge"
+  },
+  "wasabi": {
+    "endpoint": "amazon s3",
+    "accessKey": "amazon s3",
+    "secret": "amazon s3",
+    "bucket": "amazon s3",
+    "region": "amazon s3",
+    "prefix": "debug",
+    "publicBaseUrl": "https://example.com"
+  }
+}

@@ -1,0 +1,66 @@
+@import './variable.styl'
+
+.ui-button
+  font-size 16px
+  font-weight bold
+  color $cl-text
+  background $cl-primary
+  padding 8px 15px
+  border-radius 8px
+  border none
+  box-shadow 0 2px 2px $cl-gray
+  cursor pointer
+
+.ui-link, .ui-deep:deep(.ui-link)
+  color $cl-primary
+  text-decoration none
+  background-image linear-gradient(currentColor, currentColor)
+  background-position 0% 100%
+  background-repeat no-repeat
+  background-size 0% 2px
+  transition background-size cubic-bezier(0,.5,0,1) 0.3s, color cubic-bezier(0,.5,0,1) 0.3s
+  &:hover, &:focus
+    color $cl-primary
+    background-size 100% 2px
+
+.ui-textarea
+  width calc(100% - 20px)
+  height 150px
+  background $cl-gray
+  color $cl-text
+  border none
+  border-radius 8px
+  resize none
+  padding 8px
+  font-size 16px
+  box-shadow $shadow
+
+.ui-input
+  width calc(100% - 20px)
+  background $cl-gray
+  color $cl-text
+  border none
+  border-radius 8px
+  padding 8px
+  font-size 16px
+  box-shadow $shadow
+
+.ui-icon-input
+  width calc(100% - 20px)
+  background $cl-gray
+  border-radius 8px
+  padding 8px
+  box-shadow $shadow
+  display flex
+  align-items center
+  input
+    width 100%
+    border none
+    background none
+    color $cl-text
+    font-size 16px
+  i
+    flex-shrink 0
+    color $cl-gray-2
+    padding 0 5px
+    font-size 14px

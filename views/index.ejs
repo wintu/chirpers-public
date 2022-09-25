@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1, minimum-scale=1, minimal-ui">
+    <title><%= ogp.title %></title>
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta id="og-title" property="og:title" content="<%= ogp.title %>" />
+    <meta property="og:type" content="website" />
+    <meta id="og-url" property="og:url" content="<%= ogp.url %>" />
+    <meta id="og-image" property="og:image" content="https://chirpers.wintu.dev/ogp.png" />
+    <meta id="og-desc" property="og:description" content="<%= ogp.description %>" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@wintu520">
+
+    <% if (process.env.NODE_ENV === 'production' || !config.enableViteServer) { %>
+      <link rel="stylesheet" href="<%= `/${manifest['src/main.js'].css}` %>" />
+      <script type="module" src="<%= `/${manifest['src/main.js'].file}` %>"></script>
+    <% } else { %>
+      <script type="module" src="http://localhost:3001/@vite/client"></script>
+      <script type="module" src="http://localhost:3001/src/main.js"></script>
+    <% } %>
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+$cl-dark = #1c2225
+$cl-gray = #343434
+$cl-gray-2 = #a6a4a4
+$cl-primary = #2E97C8
+$cl-secondary = #ff7675
+$cl-text = #f0f6fc
+$cl-shadow = rgba(128, 128, 128, 0.4)
+
+$max-width = 1000px
+$breakpoint = 768px
+$shadow = 0 2px 2px $cl-shadow
+$menu-height = 57px
+
+ios-safe-area() {
+  padding-top constant(safe-area-inset-top)
+  padding-bottom constant(safe-area-inset-bottom)
+  padding-left constant(safe-area-inset-left)
+  padding-right constant(safe-area-inset-right)
+  padding-top env(safe-area-inset-top)
+  padding-bottom env(safe-area-inset-bottom)
+  padding-left env(safe-area-inset-left)
+  padding-right env(safe-area-inset-right)
+}
+
+sp() {
+  @media screen and (max-width: $breakpoint) {
+    {block}
+  }
+}
+
+pc() {
+  @media screen and (min-width: $breakpoint) {
+    {block}
+  }
+}

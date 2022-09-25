@@ -1,0 +1,14 @@
+{
+  "db": {
+    "username": "hogehoge",
+    "password": "hogehoge",
+    "database": "database_prod",
+    "host": "fugafuga",
+    "dialect": "mysql",
+    "logging": false
+  },
+  "enableViteServer": false,
+  "wasabi": {
+    "prefix": "prod"
+  }
+}
